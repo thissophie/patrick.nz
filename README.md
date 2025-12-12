@@ -1,12 +1,12 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/hono&template=hono)
+# patrick.nz
 
-Live Example: https://hono.vercel.dev/
+Redirects to [thisisme.nz](https://www.thisisme.nz/)
 
-Prerequisites:
+## Prerequisites:
 
 - [Vercel CLI](https://vercel.com/docs/cli) installed globally
 
-To develop locally:
+## To develop locally:
 
 ```
 npm install
@@ -17,14 +17,14 @@ vc dev
 open http://localhost:3000
 ```
 
-To build locally:
+## To build locally:
 
 ```
 npm install
 vc build
 ```
 
-To deploy:
+## To deploy:
 
 ```
 npm install
