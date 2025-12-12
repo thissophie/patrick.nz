@@ -1,14 +1,17 @@
-import { Hono } from 'hono'
+import { Hono } from "hono";
 
-const app = new Hono()
+const app = new Hono();
 
-const welcomeStrings = [
-  "Hello Hono!",
-  "To learn more about Hono on Vercel, visit https://vercel.com/docs/frameworks/hono",
-]
+app.get("/make-contact/", (c) => c.redirect("https://www.thisisme.nz/contact"));
+app.get("/make-contact", (c) => c.redirect("https://www.thisisme.nz/contact"));
 
-app.get('/', (c) => {
-  return c.text(welcomeStrings.join('\n\n'))
-})
+app.get("/talks/", (c) => c.redirect("https://www.thisisme.nz/talks"));
+app.get("/talks", (c) => c.redirect("https://www.thisisme.nz/talks"));
 
-export default app
+app.get("/", (c) => {
+  // return c.text(welcomeStrings.join('\n\n'))
+
+  return c.redirect("https://www.thisisme.nz/");
+});
+
+export default app;
