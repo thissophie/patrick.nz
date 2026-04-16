@@ -10,7 +10,7 @@ importers:
     dependencies:
       hono:
         specifier: ^4.8.9
-        version: 4.12.12
+        version: 4.12.14
     devDependencies:
       '@types/node':
         specifier: ^24.0.0
@@ -24,8 +24,8 @@ packages:
   '@types/node@24.10.13':
     resolution: {integrity: sha512-oH72nZRfDv9lADUBSo104Aq7gPHpQZc4BTx38r9xf9pg5LfP6EzSyH2n7qFmmxRQXh7YlUXODcYsg6PuTDSxGg==}
 
-  hono@4.12.12:
-    resolution: {integrity: sha512-p1JfQMKaceuCbpJKAPKVqyqviZdS0eUxH9v82oWo1kb9xjQ5wA6iP3FNVAPDFlz5/p7d45lO+BpSk1tuSZMF4Q==}
+  hono@4.12.14:
+    resolution: {integrity: sha512-am5zfg3yu6sqn5yjKBNqhnTX7Cv+m00ox+7jbaKkrLMRJ4rAdldd1xPd/JzbBWspqaQv6RSTrgFN95EsfhC+7w==}
     engines: {node: '>=16.9.0'}
 
   typescript@5.9.3:
@@ -42,7 +42,7 @@ snapshots:
     dependencies:
       undici-types: 7.16.0
 
-  hono@4.12.12: {}
+  hono@4.12.14: {}
 
   typescript@5.9.3: {}
 
